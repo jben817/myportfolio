@@ -6,7 +6,7 @@ function Navbartab(props) {
     return (
         <div>
             <ReactBootStrap.Navbar bg="primary" expand="lg">
-                <ReactBootStrap.Navbar.Brand href="#home">Portfolio</ReactBootStrap.Navbar.Brand>
+                <ReactBootStrap.Navbar.Brand href="/">Portfolio</ReactBootStrap.Navbar.Brand>
                 <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
                     <ReactBootStrap.Nav className="mr-auto">

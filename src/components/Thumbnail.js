@@ -4,12 +4,21 @@ import { Link } from 'react-router-dom';
 function Thumbnail(props) {
   return (
     <div className="project">
-      <Link to={props.link}></Link>
-        <div className="project-image">
-          <img src={props.image} alt="Project Image" />
+      <div className="card">
+        <div className="img-container">
+          <img alt={props.title} src={props.image} />
         </div>
-        <div className="project-title">{props.title}</div>
-      
+        <div className="content">
+          <ul>
+            <strong>Project Title:</strong> {props.title}
+            
+            <strong>GitHub Link:</strong> {props.gitlink}
+            
+            <strong>Deployed Link:</strong> {props.deployedlink}
+          </ul>
+        </div>
+      </div>
+
     </div>
   );
 }
