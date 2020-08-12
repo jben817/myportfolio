@@ -5,6 +5,8 @@ import pic2 from "../portpics/generator website.png"
 import pic3 from "../portpics/NYME project photo.png"
 import pic4 from "../portpics/quiz screen cap.png"
 import pic5 from "../portpics/social streaming cap.png"
+import pic6 from "../portpics/day planner.png"
+
 
 
 
@@ -14,10 +16,10 @@ function Projects (props) {
     <div>
       <h1>Projects</h1>
       <Thumbnail
-        deployedlink= ""
-        image={pic3}
+        deployedlink= "https://jben817.github.io/Homework5/"
+        image={pic6}
         title="NYME Project"
-        gitlink= ""
+        gitlink= "https://github.com/jben817/Homework5"
       />
        <Thumbnail
         deployedlink="https://jben817.github.io/Homework3/"
