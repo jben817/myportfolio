@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 function Thumbnail(props) {
   return (
     <div className="project">
@@ -11,10 +12,19 @@ function Thumbnail(props) {
         <div className="content">
           <ul>
             <strong>Project Title:</strong> {props.title}
+            <hr></hr>
             
-            <strong>GitHub Link:</strong> {props.gitlink}
+           <a  href={props.gitlink}>
+              <strong> GitHub Link</strong>
+           </a>
+           <hr></hr>
+
+           <a href= {props.deployedlink}>
+           <strong> Deployed Link</strong>
+
+           </a>
+
             
-            <strong>Deployed Link:</strong> {props.deployedlink}
           </ul>
         </div>
       </div>

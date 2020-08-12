@@ -1,5 +1,12 @@
 import React from "react"
 import Thumbnail from './Thumbnail.js';
+import pic1 from "../portpics/readme screen cap.png"
+import pic2 from "../portpics/generator website.png"
+import pic3 from "../portpics/NYME project photo.png"
+import pic4 from "../portpics/quiz screen cap.png"
+import pic5 from "../portpics/social streaming cap.png"
+
+
 
  
 function Projects (props) {
@@ -7,42 +14,42 @@ function Projects (props) {
     <div>
       <h1>Projects</h1>
       <Thumbnail
-        deployedlink="https://mjb527.github.io/NYME/"
-        image="../scr/NYME project photo.png"
+        deployedlink= ""
+        image={pic3}
         title="NYME Project"
-        gitlink="https://github.com/mjb527/NYME"
+        gitlink= ""
       />
        <Thumbnail
-        link="https://jben817.github.io/Homework3/"
-        image="./generator website.png"
+        deployedlink="https://jben817.github.io/Homework3/"
+        image={pic2}
         title="Password Generator"
         gitlink="https://github.com/jben817/Homework3"
 
       />
        <Thumbnail
-        link="https://mjb527.github.io/NYME/"
-        image="../scr/NYME project photo.png"
+        deployedlink="https://mjb527.github.io/NYME/"
+        image={pic3}
         title="NYME Project"
         gitlink="https://github.com/jben817/Homework4"
 
       />
        <Thumbnail
-        link="https://mjb527.github.io/NYME/"
-        image="../scr/NYME project photo.png"
+        deployedlink="https://ru-project2.herokuapp.com/index.html"
+        image={pic5}
         title="Social Streaming"
-        gitlink="https://github.com/jben817/Homework4"
+        gitlink="https://github.com/jben817/Social-Streaming"
 
       />
        <Thumbnail
-        link="https://mjb527.github.io/NYME/"
-        image="../scr/NYME project photo.png"
+        deployedlink="https://drive.google.com/file/d/1Sqe5XhZTGD7PfA0530v5deS-QQFbCdci/view"
+        image={pic1}
         title="Readmd Generator"
         gitlink="https://github.com/jben817/Homework9"
 
       />
        <Thumbnail
-        link="https://jben817.github.io/Homework4/"
-        image=""
+        deployedlink="https://jben817.github.io/Homework4/"
+        image={pic4}
         title="Javascript Quiz"
         gitlink="https://github.com/jben817/Homework4"
       />
