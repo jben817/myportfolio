@@ -18,7 +18,7 @@ function About(props) {
     <MDBCol md="8">   
              <h1>About Me</h1>
              <Card  className="mb-3">
-                    <img className="orpic" src={pic8} alt="photo in oregon"></img>
+                    <img className="orpic" src={pic8} alt="oregon"></img>
                     <div id="nameDiv">Jaime Bennett, BSN-RN</div>
                 </Card>
 
